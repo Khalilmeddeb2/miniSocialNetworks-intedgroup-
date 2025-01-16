@@ -104,7 +104,7 @@ addComment(postId: string) {
  }
 
  isLikedByUser(post :any){
-  let userId= localStorage.getItem('user')
+  let userId= this.curentUser._id
   return post.likes.indexOf(userId) > -1 ;
  }
 

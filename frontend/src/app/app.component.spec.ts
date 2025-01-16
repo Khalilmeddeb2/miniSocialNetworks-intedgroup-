@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'integroup'`, () => {
+  it(`should have as title 'intedgroup'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('integroup');
+    expect(app.title).toEqual('intedgroup');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('integroup app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('intedgroup app is running!');
   });
 });
