@@ -12,7 +12,6 @@ L'application est divisée en deux parties : le back-end (Node.js, Express, Mong
 **Partie Back-End**
 Structure du projet
 Voici la structure des dossiers pour la partie back-end :
-
 backend/
 ├── middleware/
 │   └── auth.js
@@ -99,13 +98,19 @@ frontend/
 **Back-End**
 
 1/Cloner le dépôt.
+
 2/Aller dans le dossier backend/.
+
 3/Installer les dépendances : npm install.
+
 4/Démarrer le serveur : npm start.
 
 **Front-End**
 
 1/Aller dans le dossier frontend/.
+
 2/Installer les dépendances : npm install.
+
 3/Démarrer l'application Angular : ng serve.
+
 4/Accéder à l'application sur http://localhost:4200.
