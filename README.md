@@ -33,6 +33,8 @@ backend/
 │   └── comments.js
 ├── server.js
 └── db.js
+
+
 **Fonctionnalités**
 
 1/Inscription utilisateur :
@@ -71,6 +73,7 @@ frontend/
 │   │   ├── _guards/
 │   │   ├── app.module.ts
 │   │   ├── app.component.ts
+
 
 **Fonctionnalités**
 
